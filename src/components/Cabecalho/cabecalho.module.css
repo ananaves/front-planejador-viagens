@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+.cabecalho {
+  background-color: #0d6efd;
+  padding: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nome {
+  color: aliceblue;
+  display: flex;
+  margin-left: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+
+.butRoteiros {
+  margin-right: 15px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  background-color: #85b6ff;
+  color: #ffffff;
+}
+
+.butRoteiros:hover {
+  transform: scale(1.05);
+}
+
+.butRegistros {
+  margin-right: 15px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  background-color: #85b6ff;
+  color: #ffffff;
+}
+
+.butRegistros:hover {
+  transform: scale(1.05);
+}
+
+
+.butMaps {
+  margin-right: 15px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  background-color: #85b6ff;
+  color: #ffffff;
+}
+
+.butMaps:hover {
+  transform: scale(1.05);
+}
+
+.butPerfil {
+  margin-right: 15px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  background-color: #85b6ff;
+  color: #ffffff;
+}
+
+.butPerfil:hover {
+  transform: scale(1.05);
+}
