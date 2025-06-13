@@ -1,16 +1,19 @@
 import estilo from './cabecalho.module.css'
+import { type JSX } from 'react';
+// import AuthRequest from '../../fetch/AuthRequest';
+// import { useState, useEffect } from 'react';
+import { APP_ROUTES } from '../../appConfig';
 
-function Cabecalho() {
+function Cabecalho(): JSX.Element {
+
   return (
     <header className={estilo.cabecalho}>
-      <h3 className={estilo.nome}>Planejador de viagens online</h3>
-      <div className={estilo.botoes}>  
-      <button className={estilo.butMaps}>Abrir MAPS</button>    
-      <button className={estilo.butRoteiros}>Roteiros</button>
-      <button className={estilo.butRegistros}>Registros</button>
-      <button className={estilo.butPerfil}>Perfil</button>
+      <h3>Meu Roteiro</h3>
+      <div className={estilo.botoes}>
+        <button className={estilo.butMaps}>Abrir MAPS</button>
+        <button className={estilo.butRoteiros}>Roteiros</button>
+        <a href={APP_ROUTES.ROUTE_PERFIL} className={estilo.butPerfil}>Perfil</a>
       </div>
-
     </header>
   );
 };

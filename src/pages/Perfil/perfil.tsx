@@ -1,13 +1,13 @@
 import Cabecalho from "../../components/Cabecalho/Cabecalho";
-import Home from "../../components/Home/home";
+import Perfil from "../../components/Perfil/perfil";
 
-function PHome() {
+function PCabecalho() {
     return (
     <>
     <Cabecalho/>
-    <Home/>
+    <Perfil/>
     </>
     );
 }
 
-export default PHome;
+export default PCabecalho;

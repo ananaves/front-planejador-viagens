@@ -1,12 +1,12 @@
-// import './App.css'
-// import AppRoutes from './routes';
 
-// function App() {
-//   return(
-//     <>
-//      <AppRoutes/>
-//     </>
-//   );
-// }
+import AppRoutes from './router';
 
-// export default App;
+function App() {
+  return(
+    <>
+     <AppRoutes/>
+    </>
+  );
+}
+
+export default App;
